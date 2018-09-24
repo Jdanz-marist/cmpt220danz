@@ -8,7 +8,7 @@ public class Question2 {
 		
 	    for(int i = 100; i <= 500; i++) {
 	    	
-	        if(i % 5==0 && i % 7==0) {
+	        if(i % 5==0 ^ i % 7==0) { // JA
 	        	
 	       
 	            System.out.print(i +" ");

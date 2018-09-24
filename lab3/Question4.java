@@ -13,24 +13,24 @@ public class Question4 {
 
 	            boolean prime = true;
 
-	            int top = (int)Math.sqrt(current) + 1;
+//	            int top = (int)Math.sqrt(current) + 1;
 
-	            for (int i = 3; i < top; i += 2) {
-	                if (current % i == 0) {
+	            for (int i = 2; i < count; i++) { // JA
+	                if (count % i == 0) {
 	                    prime = false;
 	                    break;
 	                }
 	            }
 
 	            if (prime) {
-	                count++;
-	                lastPrime = current;
+	                lastPrime = count;
 	            }
-	            if (current == 2) {
-	             current++;
-	            } else {
-	                current = current + 2;
-	            }
+				count++;
+//	            if (current == 2) {
+//	             current++;
+//	            } else {
+//	                current = current + 2;
+//	            }
 	        }
 
 	        System.out.println("Last prime = " + lastPrime);
