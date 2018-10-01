@@ -22,6 +22,7 @@ public class Question6 {
 	
 	}//main
 	
+	// JA: To add the element, you need to search for the -1 and then add the element.
 	public static void addEnd (int lastNum, int [] array) {
 		
 		for (int n = 1; n < 11; lastNum++) {

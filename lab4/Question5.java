@@ -41,6 +41,8 @@ public class Question5 {
 		
 	}//main
 	
+		// JA: This does not calculate the average. You can only calculate the
+		// average once all the elements are created.
 		public static double average(int r) {
 		
 		double avg;

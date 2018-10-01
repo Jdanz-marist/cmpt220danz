@@ -9,9 +9,9 @@ public class Question1 {
 		double in = 0.39;
 		
 		do {
-			
-			System.out.print(inches + " " + centi + "    " + cm + " " + in);
-			System.out.println(" ");
+			// JA: You should use the printf statement
+			System.out.printf("%2d%10.2f | %3d%10.2f\n", inches, centi, cm, in);
+//			System.out.println(" ");
 			
 			inches++;
 			centi += 2.54;

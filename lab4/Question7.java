@@ -10,7 +10,9 @@ public class Question7 {
 		
 		System.out.println("Input ten values for the array");
 		
-			
+			// JA: This elements is outside the bounds of the array. Last element 
+			// of the array is input1[9]
+			// JA: You need a loop here to read all the elements.
             input1[10] = keyboard.nextInt();
 
         int[] output = new int[10];
