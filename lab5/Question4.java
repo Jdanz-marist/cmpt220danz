@@ -38,7 +38,7 @@ public class Question4 {
 		Arrays.sort(x);
 		Arrays.sort(y);
 		
-		if (x != y) {
+		if (x != y) { // JA: You should compare the values, not the references
 			
 			equal = false;
 			

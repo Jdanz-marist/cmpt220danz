@@ -29,6 +29,7 @@ public class Question3 {
 			
 		}//for
 		
+		// JA: Were are the arrays sorted?
 		for (int i = 0; i < numOfStu; i++) {
 			
 			names[i] = name;

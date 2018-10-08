@@ -31,6 +31,7 @@ public class Question7 {
 		 int p=0;
 		 boolean yes = true;
          
+			// JA: You need another loop here to check the bottom part of the matrix
 	        for(int i = 0; i < array.length; i++){
 	            	
 	                if(array[i][i]!=0){

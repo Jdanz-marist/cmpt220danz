@@ -42,7 +42,7 @@ public class Question2 {
             standardDeviation += Math.pow(num - mean, 2);
         }//for
 
-        return Math.sqrt(standardDeviation/length);
+        return Math.sqrt(standardDeviation/length - 1); // JA
     }//method
 	
 	public static double mean(double[] meanArray) {
